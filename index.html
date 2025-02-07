@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ Solutions - IT, Pharma, and Industrial Jobs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>XYZ Solutions</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#jobs">Job Categories</a></li>
+                <li><a href="#careers">Careers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>We Provide Excellent IT, Pharma, and Industrial Professionals</h2>
+        <p>Helping businesses tackle complex challenges with top-tier talent.</p>
+        <img src="images/business_team.jpg" alt="Business Team">
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We specialize in IT, Pharma, and Industrial Automation staffing, providing experts in Big Data, Cybersecurity, Cloud Migration, and more.</p>
+        <img src="images/about_us.jpg" alt="Company Overview">
+    </section>
+
+    <section id="jobs">
+        <h2>Job Categories</h2>
+        <div class="job-category">
+            <h3>IT Jobs</h3>
+            <img src="images/it_jobs.jpg" alt="IT Professionals">
+            <p>Software Development, Data Security, Cloud Computing</p>
+            <a href="#careers">View Openings</a>
+        </div>
+        <div class="job-category">
+            <h3>Pharma Jobs</h3>
+            <img src="images/pharma_jobs.jpg" alt="Pharma Industry">
+            <p>Life Sciences, Medical Research, Drug Development</p>
+            <a href="#careers">View Openings</a>
+        </div>
+        <div class="job-category">
+            <h3>Industrial Automation Jobs</h3>
+            <img src="images/industrial_jobs.jpg" alt="Industrial Automation">
+            <p>Control Systems, Material Handling, Robotics</p>
+            <a href="#careers">View Openings</a>
+        </div>
+    </section>
+
+    <section id="careers">
+        <h2>Current Job Opportunities</h2>
+        <div class="job-listing">
+            <h3>Software Engineer</h3>
+            <img src="images/software_engineer.jpg" alt="Software Engineer">
+            <p>Location: Remote | Experience: 3+ Years</p>
+            <button onclick="openForm()">Quick Apply</button>
+        </div>
+        <div class="job-listing">
+            <h3>Pharma Research Scientist</h3>
+            <img src="images/pharma_scientist.jpg" alt="Pharma Research Scientist">
+            <p>Location: New York | Experience: 5+ Years</p>
+            <button onclick="openForm()">Quick Apply</button>
+        </div>
+        <div class="job-listing">
+            <h3>Automation Engineer</h3>
+            <img src="images/automation_engineer.jpg" alt="Automation Engineer">
+            <p>Location: Texas | Experience: 4+ Years</p>
+            <button onclick="openForm()">Quick Apply</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@xyzsolutions.com</p>
+        <p>Phone: +1 123-456-7890</p>
+    </section>
+
+    <script>
+        function openForm() {
+            document.getElementById("applyForm").classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>
